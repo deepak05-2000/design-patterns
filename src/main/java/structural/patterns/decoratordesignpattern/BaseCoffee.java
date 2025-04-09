@@ -1,6 +1,6 @@
 package structural.patterns.decoratordesignpattern;
 
-public class BaseCoffee implements Coffee{
+ class BaseCoffee implements Coffee {
     @Override
     public String getDescription() {
         return "Base Coffee";

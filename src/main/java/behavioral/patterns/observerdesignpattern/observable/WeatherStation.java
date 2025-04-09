@@ -2,8 +2,7 @@ package behavioral.patterns.observerdesignpattern.observable;
 
 import behavioral.patterns.observerdesignpattern.Observer;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class WeatherStation implements Subject{
     private final List<Observer> observers = new ArrayList<>();

@@ -1,4 +1,4 @@
-package singleton;
+package creational.patterns.singleton;
 
 class Singleton {
 

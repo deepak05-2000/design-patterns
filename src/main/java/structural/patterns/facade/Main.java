@@ -16,16 +16,12 @@ public class Main {
         /*
          when we have many components, instead of client
          handling them it will have a facade which provides
-         required methods and handle details on itw own
+         required methods and handle details on its own
          Client will use only facade.
          */
 
-        HomeTheatreFacade homeTheatreFacade = new HomeTheatreFacade(
-                tv,
-                soundSystem,
-                lights,
-                dvdPlayer
-        );
+        HomeTheatreFacade homeTheatreFacade = new HomeTheatreFacade();
+
         homeTheatreFacade.watchMovie("avenger");
         homeTheatreFacade.endMovie();
 

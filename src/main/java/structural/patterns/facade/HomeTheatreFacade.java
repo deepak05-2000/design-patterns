@@ -12,11 +12,11 @@ public class HomeTheatreFacade {
     private Lights lights;
     private DVDPlayer dvdPlayer;
 
-    public HomeTheatreFacade(TV tv, SoundSystem soundSystem, Lights lights, DVDPlayer dvdPlayer) {
-        this.tv = tv;
-        this.soundSystem = soundSystem;
-        this.lights = lights;
-        this.dvdPlayer = dvdPlayer;
+    public HomeTheatreFacade() {
+        this.tv = new TV();
+        this.soundSystem = new SoundSystem();
+        this.lights = new Lights();
+        this.dvdPlayer = new DVDPlayer();
     }
 
     public void watchMovie(String movie) {

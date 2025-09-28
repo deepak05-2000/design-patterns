@@ -1,9 +1,9 @@
-package structural.patterns.compositedesignpattern;
+package structural.patterns.compositedesignpattern.filesystem;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Folder implements FileSystem{
+public class Folder implements FileSystem {
 
     private String name;
     private List<FileSystem> childrens = new ArrayList<>();
